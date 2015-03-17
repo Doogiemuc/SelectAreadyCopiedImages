@@ -16,7 +16,7 @@ Copy the Service folder to `~/Library/Services/` under your home folder on your 
  - All images that already exist locally will be selected.
  - Now you may for example delete this images from the SD card.
 
-![Select already copied images](./blob/master/SelectAlreadyCopiedImages_Screenshot.png)
+![Select already copied images](./SelectAlreadyCopiedImages_Screenshot.png)
 
 # Licence & Author
 
