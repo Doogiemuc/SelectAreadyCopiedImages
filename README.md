@@ -4,11 +4,11 @@ This is a Service for the Mac Finder. It selects all files (eg. JPG images) in t
 
 I use this workflow to copy pictures from my digital camera's SD card onto my local "Pictures" folder. The Service shows me all picture files that already exist on my local disk.
 
-# Install
+## Install
 
 Copy the Service folder to `~/Library/Services/` under your home folder on your Mac.
 
-# Usage
+## Usage
 
  - Open Mac Finder
  - Navigate to a folder that contains your images (eg. the SD card)
@@ -18,7 +18,11 @@ Copy the Service folder to `~/Library/Services/` under your home folder on your 
 
 ![Select already copied images](./SelectAlreadyCopiedImages_Screenshot.png)
 
-# Licence & Author
+## Licence & Author
 
 This software is public domain. 
 Author: www.doogie.de
+
+## How I did this
+
+Finder Services can easily be created with [Automator](http://www.automator.us) under OS X. I used a Bash shell script action for finding the already exiting files, because the unix "find" command is quite fast. You can open the workflow in Automator and extend it as you like. Happy coding!
